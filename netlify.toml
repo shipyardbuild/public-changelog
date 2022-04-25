@@ -1,5 +1,5 @@
 [build]
-publish = "public"
+publish = "changelog/public"
 command = "hugo -s changelog --gc --minify"
 
 [context.production.environment]
