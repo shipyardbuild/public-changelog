@@ -1,0 +1,6 @@
+# Production
+changelog/public/*
+changelog/resources/*
+
+# Misc
+.DS_Store

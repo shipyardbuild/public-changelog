@@ -1,0 +1,5 @@
+baseURL = 'https://changelog.shipyard.build/'
+languageCode = 'en-us'
+title = 'Shipyard Release Notes'
+
+paginate = 5
