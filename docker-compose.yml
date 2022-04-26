@@ -1,0 +1,9 @@
+version: '3.4'
+services: 
+  server:
+    image: klakegg/hugo:0.93.2-alpine
+    command: -s changelog server --bind 0.0.0.0 --baseURL=http://localhost/
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"

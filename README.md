@@ -3,11 +3,7 @@
 Shipyard changelog built using [Hugo](https://gohugo.io/).
 
 ## Installation and local development
-Install Hugo on your computer
-```console
-# macOS
-brew install hugo
-```
+
 To run locally, from the root directory, run:
 ```console
 make develop
@@ -35,6 +31,5 @@ This will run changelog in a containerized development server. You can access th
 
 ## Deployment
 
-We will be using Netlify for deployment
-Netlify will need the build command set to `make deploy` and the build directory set to `public`.
-Once everything is set up it should be able to track the `main` branch, they default to `master` so we may need to change that in settings. After that, pushes to `main` will automaticallly deploy the changelog site.
+The site is hosted on Netlify and deployment happens automatically when code is merged to `main` branch.
+The `netlify.toml` contains the configuration used by netlify to deploy
