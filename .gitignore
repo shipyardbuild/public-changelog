@@ -4,3 +4,4 @@ changelog/resources/*
 
 # Misc
 .DS_Store
+.vscode
