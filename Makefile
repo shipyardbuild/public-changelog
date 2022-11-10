@@ -11,6 +11,10 @@ clean:
 run:
 	docker-compose up
 
+release-commit:
+	git add changelog/content
+	git commit -m "Release - $(shell date +%m/%d/%y)"
+
 generate.release:
 	docker-compose run server -s changelog new released/`date +%Y%m%d%H%M%S`.md
 
