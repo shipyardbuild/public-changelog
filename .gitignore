@@ -5,3 +5,4 @@ changelog/resources/*
 # Misc
 .DS_Store
 .vscode
+changelog/.hugo_build.lock
